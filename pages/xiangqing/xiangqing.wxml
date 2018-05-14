@@ -1,0 +1,26 @@
+<!--pages/xiangqing/xiangqing.wxml-->
+<block>
+   <view class='box'> 
+    <view class='bgtop'>
+      <image class='img' src='{{obj.avatar}}'></image>
+    </view>
+    <view class='bgtwo'>
+      <view class='tit'>{{obj.title}}</view>
+      <view class='price'>￥{{obj.price}}</view>
+    </view>
+   </view> 
+</block>
+ <view class='bot'>
+  <view class='botl'>
+    <image src='../../images/icon_cart.png'></image>
+    <text>联系客服</text>
+  </view>
+  <view class='botm botl' bindtap='switch'>
+    <image src='../../images/icon_cart.png'></image>
+    <text>购物车</text>
+  </view>
+  <view class='cart' bindtap='addcart' data-id="{{obj.id}}">
+    加入购物车
+  </view>
+</view> 
+

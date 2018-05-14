@@ -1,0 +1,87 @@
+/* pages/mine/mine.wxss */
+
+page{
+  width: 100%;
+  background: #edefed;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+  background: #fff;
+} 
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background-size: cover;
+}
+.userinfo-nickname {
+  color: #333231;
+}
+.list_box{
+  padding-top: 40rpx;
+  height: 194rpx;
+  background: #fff; 
+  text-align: center;
+  display: flex;
+  margin: 20rpx 0rpx;
+  font-size: 14px;
+}
+.list_box image{
+  margin: auto;
+  display: block;
+  width: 90rpx;
+  height: 90rpx;
+}
+.list_box .li{
+  flex: 1
+}
+.list_box .li text{
+  display: block;
+  margin-top: 10rpx;
+}
+
+.news{
+  margin-bottom: 32rpx;
+  background: #fff;
+  height: 404rpx;
+  color: #676767;
+}
+.news .li1{
+  height: 100rpx;
+  border-bottom: 1px solid #dddddd;
+  line-height: 100rpx;
+}
+.news .li1 image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 56rpx;
+  vertical-align: middle;
+}
+.news .li1 text{
+    margin-left: 30rpx;
+    color: #676767;
+    font-size: 15px;
+}
+.btn{
+  width: 680rpx;
+  height: 95rpx;
+  background: #e74240;
+  color: #fff;
+  text-align: center;
+  border-radius: 8rpx;
+  margin: auto;
+  font-size: 16px;
+  line-height: 95rpx;
+}

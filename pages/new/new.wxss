@@ -1,0 +1,112 @@
+  /* pages/gouwuche/gouwuche.wxss  */
+.box{
+  width: 100%;
+  height: 130px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.box icon{
+  z-index: 1000;
+  position: absolute;
+  left: 2px;
+  top: 55px;
+}
+.box_left{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.box_mid{
+  float: right;
+  position: absolute;
+  top: 20px;
+  left: 140px;
+}
+.box_right{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 90px;
+  right: 20px;
+}
+.box_right>image{
+  width: 100%;
+  height: 100%;
+}
+.box_bot{
+  position: absolute;
+  top: 90px;
+  right: 70px;
+}
+.box_bot>button{
+  width: 40rpx;
+  height: 56rpx;
+  display: inline-block;
+  border: 1px solid #ccc;
+  line-height: 56rpx;
+  text-align: center;
+  font-size: 16px;
+  background: white;
+}
+.box_bot>input{
+  width: 40rpx;
+  height: 30rpx;
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+.xqimg{
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 100%;
+  height: 100%;
+}
+.nam{
+  font-size: 14px;
+  color: #ccc;
+}
+.price{
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+}
+.bot{
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background: white;
+}
+.bot icon{
+  position: absolute;
+  top: 20px;
+  left: 2px;
+}
+.botlef{
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.botlef>.price{
+  font-size: 20px;
+  margin-left: 15px;
+  color: red;
+}
+.botrig{
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 150px;
+  height: 45px;
+  background: #ff6600;
+  color: white;
+  line-height: 45px;
+  text-align: center;
+}
+.tishi{
+  margin-left: 20px;
+  /* margin-top: 40px; */
+} 
+.wrap{
+  position: relative
+}

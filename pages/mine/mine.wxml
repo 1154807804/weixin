@@ -1,0 +1,47 @@
+<!--pages/mine/mine.wxml-->
+
+<view class='container'>
+  <view class='userinfo'>
+    <image class='userinfo-avatar' src='{{avatarUrl}}'></image>
+    <text class="userinfo-nickname">{{nickName}}</text>
+  </view>
+</view>
+<view class='list_box'>
+  <view class='li'>
+    <image src='../../images/icon_order.png'></image>
+    <text>待付款</text>
+  </view>
+   <view  class='li'>
+    <image src='../../images/icon_order.png'></image>
+    <text>待发货</text>
+  </view>
+   <view  class='li'>
+    <image src='../../images/icon_order.png'></image>
+    <text>已发货</text>
+  </view>
+   <view  class='li'>
+    <image src='../../images/icon_order.png'></image>
+    <text>已完成</text>
+  </view>
+</view>
+
+<view class='news'>
+  <view class='li1'>
+    <image src='../../images/icon_address.png'></image>
+    <text>收货地址</text>
+  </view>
+  <view class='li1'>
+    <image src='../../images/icon_share.png'></image>
+    <text>扫码分享</text>
+  </view>
+  <view class='li1'>
+    <image src='../../images/icon_donate.png'></image>
+    <text>赞赏捐赠</text>
+  </view>
+  <view class='li1'>
+    <image src='../../images/icon_aboutus.png'></image>
+    <text>关于我们</text>
+  </view>
+</view>
+<button class='btn'>退出</button>
+

@@ -1,0 +1,105 @@
+/**index.wxss**/
+
+page{
+  background: #eeeeee;
+}
+/*轮播  */
+.wrap{
+  width: 100%;
+  height: 180px;
+} 
+.img image{
+  width: 100%;
+  height: 100%;
+}
+/*分类订单  */
+.classify{
+  margin-top: 10px;
+  height: 160px;
+  width: 100%;
+  background: white;
+  margin-bottom: 10px;
+}
+.classify_left{
+  height: 100%;
+  margin-top: 30px;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.classify_right{
+  height: 100%;
+  margin-top: 30px;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+.classify_left text{
+  position: absolute;
+  left: 50px;
+  top: 80px;
+}
+.classify_right text{
+  position: absolute;
+  right: 50px;
+  top: 80px;
+}
+.bg{
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+  background: #ff5800;
+  border-radius: 20px;
+}
+.bg>image{
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 60px;
+  height: 60px;
+}
+.bgr{
+  margin-left: 0;
+  margin-right: 50px;
+  float: right; 
+  background: #009aff;
+}
+/*热卖推荐  */
+.remai{
+  display: block;
+  height: 40px;
+  background: white;
+  border-bottom: 1px solid #ebebeb;
+   line-height: 5px; 
+  padding-left: 10px;
+}
+.waibu::after{
+  content: "";
+  display: table;
+  clear: both;
+  background: white;
+}
+.cont{
+  float: left;  
+  width: 50%;
+  height: 500rpx;
+  position: relative;
+  background: white;
+}
+.movie{
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 300rpx;
+  height: 280rpx;
+}
+.year{
+  margin-left: 5px;
+  color: #aaa;
+  font-size: 12px;
+}
+.director{
+  font-size: 12px;
+  color: red;
+  margin-top: 10px;
+  margin-left: 5px;
+}

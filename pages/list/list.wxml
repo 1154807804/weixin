@@ -1,0 +1,14 @@
+<!--pages/list/list.wxml-->
+<view class='left'>
+   <view data-id="{{item.id}}" bindtap='fun' class='{{index==i?"white":""}}' wx:for="{{shuju}}">{{item.tree.desc}}</view>
+</view>
+<view class='right'>
+     <view class='box' wx:for="{{shuju[i].tree.nodes}}">
+        <image class='img' src="{{item.tree.logo}}"></image>
+        <view class='text'>{{item.tree.desc}}</view>
+     </view>
+     <!-- <view class='box_bot'>
+     
+     </view> -->
+</view>
+
